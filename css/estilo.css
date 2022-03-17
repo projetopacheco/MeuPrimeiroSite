@@ -1,5 +1,19 @@
 body {
      background-color: #FFA07A;
+     text-align: center;
+
+}
+
+p{
+color: black;
+}
+
+h1, h2{
 
 
+}
+
+.container{
+    width:70%;
+    margin: auto;
 }
