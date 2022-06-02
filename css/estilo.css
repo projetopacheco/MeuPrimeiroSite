@@ -1,8 +1,23 @@
-body {
-     background-color: #FFA07A;
-     text-align: center;
-
+body{
+    background-color: #fadace;
+     
 }
+
+.menu{
+    background-color: rgba(9, 7, 6, 0.3);
+    padding: 2%;
+  
+  }
+
+.itens_Menu{
+    padding-top: 1%;
+    line-height: 1.5;
+    text-align: center;
+    font-size: 1.3em;
+
+h1{
+    font-size: 2em;
+      }   
 
 p{
 color: black;
@@ -10,6 +25,10 @@ font-size: 1em;
 }
 
 h1, h2{
+
+figure{
+    text-align: center;
+ }  
 
 
 }
@@ -24,6 +43,27 @@ width: 100%;
 
 }
 
-    .img_corpo{
-        width: 60%;
-    }
+.img_corpo{
+ width: 60%;
+ }
+
+ a:link {
+color: #FFDEAD;
+     }
+      
+/* visited link */
+ a:visited {
+color:#FFDEAD;
+      }
+      
+ /* mouse over link */
+ a:hover {
+color:#504941;
+      }
+    
+footer{
+background-color: rgba(9, 7, 6, 0.3);
+ padding: 2%;
+      }
+    
+          
