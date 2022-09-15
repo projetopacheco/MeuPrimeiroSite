@@ -3,29 +3,27 @@ html{
 }
 
 body{
-    background-color: #fadace; 
+    background-color: #ffff; 
     font-family: 'Roboto', sans-serif;
 }
 
 
 
 .menu{
-    background-color: rgba(9, 7, 6, 0.3);
-    padding: 2%;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 1%;
     font-size: 1.3em;
     padding-top: 1%;
-    line-height: 1.5;
+    line-height: 1%;
     text-align: center;
     position: fixed;
     width: 100%;
     font-family: 'Roboto', sans-serif;
- 
   }
 
-  .itens_Menu{
+  .itens_Menu { 
  
-    text-align: center;
-    align-items: center;
+    align-items: flex-end ;
   }
 
   .itens_Menu a:visited, .itens_Menu a:link{
@@ -38,7 +36,6 @@ body{
   .itens_Menu a:hover{
     background-color: rgba(9, 7, 6, 0.4);
     padding: 0,8%;
-
   }
 
   .itens_Menu a:active{
@@ -81,7 +78,7 @@ figure{
 
 .form{
   box-sizing: border-box;
-  background-color: #dab790;
+  background-color: #61492d;
   padding: 5%;
   border-radius: 25px;
 }
@@ -152,7 +149,7 @@ footer p {
 
    
 .botao:hover{
-    background-color:#FFDEAD;
+    background-color:#aa7423;
   }
 
   .botao a:link, .botao a:visited{
@@ -181,7 +178,7 @@ color:#744d0f88;
       
  /* mouse over link */
  a:hover {
-color:#dab790;
+color:#a88153;
       }
     
 footer{
@@ -193,13 +190,7 @@ footer p {
     text-align: left;
     font-size: 1.5em;
     font-family: 'Roboto', sans-serif;
-     width: 80%;
-      
-    }
-    
-   
-    
-      
+      }
 
 .botao{
      margin: 1%;
@@ -247,26 +238,17 @@ section{
         width: 30%;
       }
 
+.img_logo{
+        width: 20%;
+        text-align: left;
+    }
 
-      audio{
-        width: 80%;
-        
-      }
-      
-      audio::-webkit-media-controls-panel{ 
-        background-color:#ffffff7c !important; 
-       
-      }
-      
-      .img_logo{
-        width: 30%;
-      }
-      
-      .logo{
-        width: 60%;
-        text-align: center;
-      }
-   
-    
+.logo{
+  text-align: left;
+  margin-top: 2%;
+  width: 55%;
+}    
+
+
 
       
